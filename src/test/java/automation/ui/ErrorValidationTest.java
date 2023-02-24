@@ -32,4 +32,10 @@ public class ErrorValidationTest extends BaseTest {
 	public void testToDataVerify() {
 		System.out.println("second test");
 	}
+
+	@Test
+	public void testNewFeatureOfGit() {
+		System.out.println("Hi I am From New");
+
+	}
 }
