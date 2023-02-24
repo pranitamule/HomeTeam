@@ -26,4 +26,9 @@ public class ErrorValidationTest extends BaseTest {
 
 		Assert.assertTrue(cartpage.isItemPresentIntoCart(productName));
 	}
+	@Test
+	public void testNewFeatureOfGit()
+	{
+		System.out.println("Hi I am From New");
+	}
 }
