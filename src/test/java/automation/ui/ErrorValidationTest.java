@@ -35,9 +35,13 @@ public class ErrorValidationTest extends BaseTest {
 
 	@Test
 	public void testNewFeatureOfGit() {
-		int a=10;
-		int b=10;
-		System.out.println(a+b);
+
+		System.out.println("Hi I am From New");
+		System.out.println("Second New");
+
+		int a = 10;
+		int b = 10;
+		System.out.println(a + b);
 
 	}
 }
