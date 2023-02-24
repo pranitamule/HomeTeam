@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Error Validation Test (failed)">
+    <classes>
+      <class name="automation.ui.ErrorValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testToVerifyLoginWithIncorrectUserNameAndPwd"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- automation.ui.ErrorValidationTest -->
+    </classes>
+  </test> <!-- Error Validation Test (failed) -->
+</suite> <!-- Failed suite [Suite] -->
