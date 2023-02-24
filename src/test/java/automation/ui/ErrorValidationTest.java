@@ -40,8 +40,6 @@ public class ErrorValidationTest extends BaseTest {
 
 		int a = 10;
 		int b = 10;
-		System.out.println(a + b);
-		int c=19;
 
 	}
 }
