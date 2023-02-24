@@ -20,10 +20,16 @@ public class ErrorValidationTest extends BaseTest {
 	public void testToVerifyProductGetsAddedToTheCart() {
 		String productName = "zara coat 3";
 		ProductCatlauge pCatLouge;
-		pCatLouge=landingPage.loginToApplication("test45@gmail.com", "Test@123");
+		pCatLouge = landingPage.loginToApplication("test45@gmail.com", "Test@123");
 		pCatLouge.clickOnAddToCart(productName);
 		CartPage cartpage = pCatLouge.clickOnCart();
 
 		Assert.assertTrue(cartpage.isItemPresentIntoCart(productName));
+	}
+
+	@Test
+
+	public void testToDataVerify() {
+		System.out.println("second test");
 	}
 }
